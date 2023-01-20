@@ -4,7 +4,6 @@ input.onButtonPressed(Button.A, function () {
 input.onButtonPressed(Button.B, function () {
     basic.showNumber(24)
 })
-music.playMelody("- - - - - - - - ", 120)
-basic.forever(function () {
-	
-})
+for (let index = 0; index < 10; index++) {
+    music.playMelody("G A F B G A D E ", 120)
+}
